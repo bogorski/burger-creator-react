@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/BurgerCreatorReact/static/css/main.3b9a68a6.chunk.css",
-    "main.js": "/BurgerCreatorReact/static/js/main.9eaeeb82.chunk.js",
-    "main.js.map": "/BurgerCreatorReact/static/js/main.9eaeeb82.chunk.js.map",
-    "runtime-main.js": "/BurgerCreatorReact/static/js/runtime-main.2d297ea0.js",
-    "runtime-main.js.map": "/BurgerCreatorReact/static/js/runtime-main.2d297ea0.js.map",
-    "static/css/2.7b1c032f.chunk.css": "/BurgerCreatorReact/static/css/2.7b1c032f.chunk.css",
-    "static/js/2.c0860a57.chunk.js": "/BurgerCreatorReact/static/js/2.c0860a57.chunk.js",
-    "static/js/2.c0860a57.chunk.js.map": "/BurgerCreatorReact/static/js/2.c0860a57.chunk.js.map",
-    "index.html": "/BurgerCreatorReact/index.html",
-    "static/css/2.7b1c032f.chunk.css.map": "/BurgerCreatorReact/static/css/2.7b1c032f.chunk.css.map",
-    "static/css/main.3b9a68a6.chunk.css.map": "/BurgerCreatorReact/static/css/main.3b9a68a6.chunk.css.map",
-    "static/js/2.c0860a57.chunk.js.LICENSE.txt": "/BurgerCreatorReact/static/js/2.c0860a57.chunk.js.LICENSE.txt"
+    "main.css": "/burger-creator-react/static/css/main.3b9a68a6.chunk.css",
+    "main.js": "/burger-creator-react/static/js/main.9eaeeb82.chunk.js",
+    "main.js.map": "/burger-creator-react/static/js/main.9eaeeb82.chunk.js.map",
+    "runtime-main.js": "/burger-creator-react/static/js/runtime-main.2002d4a3.js",
+    "runtime-main.js.map": "/burger-creator-react/static/js/runtime-main.2002d4a3.js.map",
+    "static/css/2.7b1c032f.chunk.css": "/burger-creator-react/static/css/2.7b1c032f.chunk.css",
+    "static/js/2.c0860a57.chunk.js": "/burger-creator-react/static/js/2.c0860a57.chunk.js",
+    "static/js/2.c0860a57.chunk.js.map": "/burger-creator-react/static/js/2.c0860a57.chunk.js.map",
+    "index.html": "/burger-creator-react/index.html",
+    "static/css/2.7b1c032f.chunk.css.map": "/burger-creator-react/static/css/2.7b1c032f.chunk.css.map",
+    "static/css/main.3b9a68a6.chunk.css.map": "/burger-creator-react/static/css/main.3b9a68a6.chunk.css.map",
+    "static/js/2.c0860a57.chunk.js.LICENSE.txt": "/burger-creator-react/static/js/2.c0860a57.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d297ea0.js",
+    "static/js/runtime-main.2002d4a3.js",
     "static/css/2.7b1c032f.chunk.css",
     "static/js/2.c0860a57.chunk.js",
     "static/css/main.3b9a68a6.chunk.css",
