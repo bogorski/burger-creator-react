@@ -135,12 +135,10 @@ class App extends React.Component {
       ingredients[ingredients.length - 1].alt === "fish" ||
       ingredients[ingredients.length - 1].alt === "top \n bun"
     ) {
-      //height = height;
       style.position = "relative";
       style.top = height + "px";
       style.zIndex = zIndex;
     }
-    console.log(ingredients);
     this.setState({
       listIngredients: listIngredients,
       ingredients: ingredients,
@@ -232,7 +230,6 @@ class App extends React.Component {
       ingredients.splice(lastIndexSearchIngredient, 1);
 
       let newHeight = 0;
-      console.log(ingredients);
       ingredients.forEach((product, i) => {
         if (i === 0) {
           return;
@@ -247,7 +244,6 @@ class App extends React.Component {
           product.style = { top: newHeight, position: "relative", zIndex: i };
         }
       });
-      console.log(ingredients);
 
       this.setState(() => {
         return {
@@ -294,7 +290,7 @@ class App extends React.Component {
   }
 
   handleClickRemove(i) {
-    const saveBurgers = this.state.saveBurgers.splice();
+    const saveBurgers = this.state.saveBurgers.slice();
     saveBurgers.splice(i, 1);
     this.setState({
       saveBurgers: saveBurgers,
@@ -307,19 +303,22 @@ class App extends React.Component {
         <div className="container">
           <div className="row text-center p-2">
             <div className="col-6">
-              <Link className="blueInformation" to="/">
+              <Link className="blueInformation" to="/burger-creator-react/">
                 Burger creator
               </Link>
             </div>
             <div className="col-6">
-              <Link className="blueInformation" to="/favourites">
+              <Link
+                className="blueInformation"
+                to="/burger-creator-react/favourites"
+              >
                 Favourites burgers
               </Link>
             </div>
           </div>
         </div>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/burger-creator-react">
             <ComponentBurgerCreator
               arrayIngredients={this.state.listIngredients}
               onClickAddIngredient={(i) => this.handleClickAddIngredient(i)}
@@ -335,7 +334,7 @@ class App extends React.Component {
               paragraphClassName={this.state.paragraphClassName}
             />
           </Route>
-          <Route path="/favourites">
+          <Route path="/burger-creator-react/favourites">
             <ViewAllFavouritesBurgers
               arrayBurgers={this.state.saveBurgers}
               onClickRemove={(i) => this.handleClickRemove(i)}
