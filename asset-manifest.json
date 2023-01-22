@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/burger-creator-react/static/css/main.3b9a68a6.chunk.css",
-    "main.js": "/burger-creator-react/static/js/main.9de9754e.chunk.js",
-    "main.js.map": "/burger-creator-react/static/js/main.9de9754e.chunk.js.map",
+    "main.js": "/burger-creator-react/static/js/main.ec2569ab.chunk.js",
+    "main.js.map": "/burger-creator-react/static/js/main.ec2569ab.chunk.js.map",
     "runtime-main.js": "/burger-creator-react/static/js/runtime-main.2002d4a3.js",
     "runtime-main.js.map": "/burger-creator-react/static/js/runtime-main.2002d4a3.js.map",
     "static/css/2.7b1c032f.chunk.css": "/burger-creator-react/static/css/2.7b1c032f.chunk.css",
@@ -11,13 +11,16 @@
     "index.html": "/burger-creator-react/index.html",
     "static/css/2.7b1c032f.chunk.css.map": "/burger-creator-react/static/css/2.7b1c032f.chunk.css.map",
     "static/css/main.3b9a68a6.chunk.css.map": "/burger-creator-react/static/css/main.3b9a68a6.chunk.css.map",
-    "static/js/2.c0860a57.chunk.js.LICENSE.txt": "/burger-creator-react/static/js/2.c0860a57.chunk.js.LICENSE.txt"
+    "static/js/2.c0860a57.chunk.js.LICENSE.txt": "/burger-creator-react/static/js/2.c0860a57.chunk.js.LICENSE.txt",
+    "static/media/ingredient-burger.94e9cb16.png": "/burger-creator-react/static/media/ingredient-burger.94e9cb16.png",
+    "static/media/ingredient-cheese.703cd689.png": "/burger-creator-react/static/media/ingredient-cheese.703cd689.png",
+    "static/media/ingredient-fish.9ea680e8.png": "/burger-creator-react/static/media/ingredient-fish.9ea680e8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2002d4a3.js",
     "static/css/2.7b1c032f.chunk.css",
     "static/js/2.c0860a57.chunk.js",
     "static/css/main.3b9a68a6.chunk.css",
-    "static/js/main.9de9754e.chunk.js"
+    "static/js/main.ec2569ab.chunk.js"
   ]
 }
